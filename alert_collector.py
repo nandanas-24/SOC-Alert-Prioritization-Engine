@@ -8,22 +8,22 @@ def collect_alert():
     alerts = [
         (
             "Multiple Failed Login Attempts",
-            "192.168.1.10",
-            "192.168.1.100",
+            "000.000.1.10",
+            "000.000.1.100",
             "High",
             "Multiple failed login attempts detected from one IP address."
         ),
         (
             "Suspicious IP Connection",
-            "203.0.113.50",
-            "192.168.1.100",
+            "000.0.113.50",
+            "000.008.1.100",
             "Critical",
             "Connection detected from a simulated suspicious external IP."
         ),
         (
             "Port Scanning Detected",
-            "192.168.1.25",
-            "192.168.1.100",
+            "000.000.1.25",
+            "000.000.1.100",
             "Medium",
             "Multiple ports accessed within a short period."
         ),
